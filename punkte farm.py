@@ -119,7 +119,7 @@ def ending():
     )
     speichern_button.click()
     time.sleep(1)
-    webhook = DiscordWebhook(url="https://discord.com/api/webhooks/1155481170868441189/mEYcyny46254WuOhSKjT73eXHoNbQ4o8lOilhXwccU2oyhvnZC0OEl1CQZhEUAXEDJIS", content="Navigium Fertig!!")
+    webhook = DiscordWebhook(url="YOUR_DISCORD_WEBHOOK", content="Navigium Fertig!!")
     response = webhook.execute()
     time.sleep(1)
     exit()
